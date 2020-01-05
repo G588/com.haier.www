@@ -1,0 +1,331 @@
+body {
+    background-color: #f6f6f6;
+}
+
+/* 1.顶部 */
+.dingBu {
+    width: 100%;
+    height: calc(64rem / 37.5);
+    background-color: #ffffff;
+    /* background-color: hotpink; */
+}
+
+.dingBu img {
+    padding-left: calc(32rem / 37.5);
+    width: calc(100rem / 37.5);
+    height: calc(27rem / 37.5);
+    float: left;
+    margin-top: calc((calc(75rem / 37.5) - calc(27rem / 37.5)) / 2);
+}
+
+.dingBu-right {
+    float: right;
+    width: calc(163rem / 37.5);
+    height: calc(64rem / 37.5);
+    /* border-left-color: aquamarine; */
+}
+
+.dingBu-right i {
+    padding-left: calc(44rem / 37.5);
+    line-height: calc(75rem / 37.5);
+    font-size: calc(24rem / 37.5);
+    color: #e0e1e1;
+}
+
+/* 2.我的服务 */
+.fuWU {
+    width: 100%;
+    height: calc(70rem / 37.5);
+    background: url(../image/hn_service_banner1.webp);
+    background-size: 100% 100%;
+}
+
+.fuWU-left {
+    float: left;
+    line-height: calc(104rem / 37.5);
+    width: 50%;
+    height: calc(70rem / 37.5);
+    /* background-color: blanchedalmond; */
+}
+
+.fuWU-right {
+    float: left;
+    width: 50%;
+    height: calc(70rem / 37.5);
+    /* background-color: chartreuse; */
+}
+
+.fuWU-left img {
+    float: left;
+    padding-top: calc(20rem / 37.5);
+    padding-left: calc(58rem / 37.5);
+    width: calc(39rem / 37.5);
+    height: calc(34rem / 37.5);
+}
+
+.fuWU-left span {
+    text-align: center;
+    padding-top: calc(20rem / 37.5);
+    float: left;
+    font-size: calc(17rem / 37.5);
+    color: #ffffff;
+    line-height: calc(42rem / 37.5);
+
+}
+
+.fuWU-right img {
+    float: left;
+    padding-top: calc(20rem / 37.5);
+    padding-left: calc(58rem / 37.5);
+    width: calc(28rem / 37.5);
+    height: calc(34rem / 37.5);
+}
+
+.fuWU-right span {
+    text-align: center;
+    padding-top: calc(20rem / 37.5);
+    float: left;
+    font-size: calc(17rem / 37.5);
+    color: #ffffff;
+    line-height: calc(42rem / 37.5);
+
+}
+
+/* 3.项目 */
+.xianhMu {
+    width: 100%;
+    height: calc(203rem / 37.5);
+    background-color: #ffffff;
+    border-bottom: calc(1rem / 37.5) solid #ccc;
+    /* background-color: crimson; */
+}
+
+.xianhMu ul {
+    width: 100%;
+    height: 100%;
+    /* margin: 34px 0; */
+    /* background-color: darkorange; */
+}
+
+.xianhMu ul li {
+    text-align: center;
+    float: left;
+    width: 33.3333%;
+    padding-top: calc(35rem / 37.5);
+    height: calc(42rem / 37.5);
+    /* background-color: darkseagreen; */
+}
+
+.xianhMu ul li img {
+    width: calc(20rem / 37.5);
+    height: calc(20rem / 37.5);
+}
+
+.xianhMu ul li span {
+    display: block;
+}
+
+/* 4.图片 */
+.tuPian {
+    margin: calc(25rem / 37.5) 0;
+    width: 100%;
+}
+
+.tuPian img {
+    padding-left: calc(11rem / 37.5);
+    width: 94%;
+}
+
+/* 5.服务与电话 */
+.dianHuo {
+    padding-left: calc(10rem / 37.5);
+    width: 100%;
+    height: calc(88rem / 37.5);
+    /* background-color: bisque; */
+}
+
+.dianHuo ul {
+    width: 95%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+.dianHuo ul li:nth-child(1) {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #72ce08;
+}
+
+.dianHuo ul li:nth-child(2) {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: #005aab; */
+}
+
+.dianHuo ul li img {
+    float: left;
+    margin-top: calc(27rem / 37.5);
+    margin-left: calc(40rem / 37.5);
+    width: calc(40rem / 37.5);
+    height: calc(35rem / 37.5);
+}
+
+.dianHuo ul li span {
+    margin-top: calc(33rem / 37.5);
+    padding-left: calc(5rem / 37.5);
+    color: #fff;
+    float: left;
+    font-size: 0.3rem;
+    display: inline-block;
+}
+
+/* 6.特色服务  */
+.teSe {
+    width: 94%;
+    margin: 0 auto;
+    height: calc(175rem / 37.5);
+    margin-bottom: calc(50rem / 37.5);
+    padding-top: calc(10rem / 37.5);
+    /* background-color: gold; */
+}
+
+.teSe h2 {
+    margin-left: calc(16rem / 37.5);
+    margin-bottom: calc(10rem / 37.5);
+    font-size: calc(15rem / 37.5);
+    color: #333;
+}
+
+.teSe h2 span {
+    padding-left: calc(6rem / 37.5);
+    font-size: calc(14rem / 37.5);
+    color: #999999;
+}
+
+.teSe-01 {
+    width: 94%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.teSe-01 ul li {
+    height: calc(66rem / 37.5);
+}
+
+.teSe-01 ul li a {
+    display: block;
+    line-height: calc(32rem / 37.5);
+}
+
+.teSe-01 ul li img {
+    padding: calc(13rem / 37.5);
+    width: calc(32rem / 37.5);
+    height: calc(32rem / 37.5);
+}
+
+.teSe-01 ul li:nth-child(1) {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.teSe-01 ul li p {
+    color: #333;
+    line-height: 1.5em;
+    display: inline-block;
+    font-size: calc(12rem / 37.5);
+    position: relative;
+    top: calc(-14rem / 37.5);
+}
+
+.teSe-01 ul li p span {
+    color: #999;
+}
+
+/* 7.触屏与电脑 */
+.chuPing {
+    width: 100%;
+    height: 66px;
+    background-color: #525455;
+}
+
+.chuPing-01 {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border-left-color: aquamarine;
+}
+
+.chuPing-02 {
+    float: left;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    border-left-color: aquamarine;
+}
+
+.chuPing-01 {
+    border-right: calc(1rem / 37.5) solid #4a4b4c;
+    line-height: calc(66rem / 37.5);
+    text-align: center;
+}
+
+.chuPing-02 {
+    line-height: calc(66rem / 37.5);
+    text-align: center;
+}
+
+.chuPing-01 i {
+    color: #fff;
+    font-size: calc(33rem / 37.5);
+}
+
+.chuPing-02 i {
+    color: #fff;
+    font-size: calc(33rem / 37.5);
+}
+
+.chuPing-01 span {
+    color: #fff;
+    padding-left: calc(2rem / 37.5);
+
+    font-size: calc(16rem / 37.5);
+}
+
+.chuPing-02 span {
+    color: #fff;
+    padding-left: calc(2rem / 37.5);
+
+    font-size: calc(15rem / 37.5);
+}
+
+.diBu {
+    width: 100%;
+    height: calc(160rem / 37.5);
+    background-color: #2b2c2d;
+}
+
+.diBu ul {
+    width: 61%;
+    margin: 0 auto;
+    color: #999;
+    /* background-color: pink; */
+}
+
+.diBu ul li {
+    margin-top: calc(36rem / 32);
+    display: inline-block;
+    text-align: center;
+    padding: 0 calc(4rem / 37.5);
+    font-size: 0.3rem;
+}
+
+.diBu p {
+    margin-top: calc(32rem / 37.5);
+    /* background-color: powderblue; */
+    color: #666666;
+    text-align: center;
+    padding: calc(20rem / 37.5) 0 calc(25rem / 37.5);
+}
