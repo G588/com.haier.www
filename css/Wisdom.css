@@ -431,6 +431,10 @@
     overflow: hidden;
 }
 
+.fuwu-top {
+    line-height: calc(17rem / 37.5);
+}
+
 /* 2.11海尔智家 */
 .zhijia {
     width: 100%;
@@ -472,12 +476,14 @@
     width: 80%;
 
 }
+
 /* 2.14-16底部 */
-.dibu{
+.dibu {
     width: 100%;
     height: auto;
     background: #fafafa;
 }
+
 /* 2.14.中国 */
 .zhongguo {
     color: #444;
@@ -487,11 +493,13 @@
     background: #fafafa;
     padding: 5px 0;
 }
-.zhongguo>i{
+
+.zhongguo>i {
     color: #444;
     font-size: .24rem;
     line-height: 1.5;
 }
+
 .zhongguo span {
     color: #0c5ca8;
 }
@@ -504,18 +512,20 @@
     background: #fafafa;
 }
 
-.banquan{
+.banquan {
     margin-top: 10px;
     background: #fafafa;
     width: 100%;
 }
-.banquan span{
+
+.banquan span {
     display: block;
     font-size: 10px;
     color: #444444;
 }
+
 /* 2.17侧边二维码  */
-.rightbox{
+.rightbox {
     position: fixed;
     width: 70px;
     right: 10px;
@@ -523,6 +533,7 @@
     overflow: hidden;
     z-index: 99;
 }
-.rightbox img{
+
+.rightbox img {
     width: 100%;
 }
