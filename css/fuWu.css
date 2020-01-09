@@ -22,7 +22,6 @@ body {
     float: right;
     width: calc(163rem / 37.5);
     height: calc(64rem / 37.5);
-    /* border-left-color: aquamarine; */
 }
 
 .dingbu-right i {
