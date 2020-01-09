@@ -1,3 +1,8 @@
+html,body a:hover{
+text-decoration: none;
+}
+
+
 /* 1.顶部 */
 .dingbu {
     width: 100%;
@@ -317,7 +322,12 @@ main {
     height: 100%;
     background-color: #f0f0f0;
 }
-
+/* .xinxuan-03.xinxuan-03-01 :hover{
+    text-decoration: none;
+}
+.xinxuan-03.xinxuan-03-02 :hover{
+    text-decoration: none;
+} */
 .xinxuan-03-01-01 {
     position: relative;
     width: 100%;
@@ -542,7 +552,7 @@ main {
     width: 100%;
 }
 
-.quanwu-01-01 :hover {
+.quanwu-01-01 a:hover {
     text-decoration: none
 }
 
@@ -563,11 +573,11 @@ main {
 .quanwu-01-01-02 {
     font-style: normal;
     width: 100%;
-    font-size: 0.3rem;
-    line-height: 0.4rem;
+    font-size:calc(12rem / 37.5) ;
+    line-height: calc(28rem / 37.5);
     text-align: center;
-    padding: 0 0.49rem;
-    margin-bottom: 0.3rem;
+    padding: 0 calc(18rem / 37.5);
+    margin-bottom: calc(12rem / 37.5);
 }
 
 .quanwu-01-01-03 {
@@ -589,11 +599,11 @@ main {
 .quanwu-01-01-x {
     font-style: normal;
     font-size: calc(24rem / 37.5);
-    line-height: 0.48rem;
-    height: 0.48rem;
-    margin-bottom: 0.34rem;
+    line-height: calc(41rem / 37.5);
+    height: calc(41rem / 37.5);
+    margin-bottom: calc(12rem / 37.5);
     font-weight: bold;
-    padding: 0.8rem 0 0.3rem;
+    /* padding: calc(30rem / 37.5) 0 calc(11rem / 37.5); */
     text-align: center;
 }
 
@@ -639,16 +649,14 @@ main {
 }
 
 .zixuen-01 {
-    font-size: 0.48rem;
-    padding-top: 0.50rem;
-    padding-bottom: 0.6rem;
     font-size: calc(24rem / 37.5);
-    height: 0.42rem;
-    line-height: 0.42rem;
+    padding-top: calc(20rem / 37.5);
+    padding-bottom: calc(26rem / 37.5);
+    font-size: calc(24rem / 37.5);
+    /* height: calc(46rem / 37.5);
+    line-height: calc(46rem / 37.5); */
     font-weight: bold;
     text-align: center;
-    padding-top: 0.55rem;
-    padding-bottom: 0.70rem;
 }
 
 .zixuen-02 {
@@ -673,18 +681,16 @@ main {
 
 /* @media (max-width: 750px) { */
 .xixuan-02-03 {
-    padding-left: 0.2rem;
+    padding-left: calc(7rem / 37.5);
     height: auto;
-    margin-top: 0.58rem;
-    margin-bottom: 0.28rem;
+    margin-top: calc(27rem / 37.5);
+    margin-bottom: calc(16rem / 37.5);
     color: #111;
-    font-size: 0.40rem;
-    height: 0.34rem;
+    font-size: calc(15rem / 37.5);
+    height: calc(12rem / 37.5);
     font-weight: bold;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin-top: 0.73rem;
-    margin-bottom: 0.43rem;
     text-decoration: none
 }
 
@@ -692,10 +698,10 @@ main {
 
 /* @media (max-width: 750px) { */
 .xixun-02-04 {
-    font-size: 0.29rem;
+    font-size: calc(10rem / 37.5);
     line-height: 0.36rem;
     color: #666;
-    padding: 0.5rem 1em;
+    padding: calc(18rem / 37.5) calc(10rem / 37.5);
     word-wrap: break-word;
     overflow: hidden;
     -webkit-line-clamp: 3;
@@ -713,14 +719,14 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 2px;
+    height: calc(2rem / 37.5);
     background-color: #c7d3d9;
 }
 
 .xinxun-02-05-01 {
     position: absolute;
     left: 0;
-    width: 0.6rem;
+    width: calc(22rem / 37.5);
     height: 100%;
     background-color: #0c5ca8;
 }
@@ -729,22 +735,21 @@ main {
 /* @media (max-width: 750px) { */
 .lianjie {
     /* background-color: aqua; */
-    height: 6.5rem;
+    height:calc(243rem / 37.5);
 }
 
 /* } */
 
 /* @media (max-width: 750px) { */
 .lianjie-01 {
-    font-size: 0.48rem;
-    line-height: 0.5rem;
-    height: 0.5rem;
-    font-size: 0.62rem;
+    font-size: calc(23rem / 37.5);
+    line-height: calc(76rem / 37.5);
+    height: calc(76rem / 37.5);
     font-weight: bold;
     height: 0.42rem;
     line-height: 0.42rem;
     color: #000;
-    padding: 1.05rem 0 1rem;
+    padding: calc(39rem / 37.5)0 calc(37rem / 37.5);
     text-align: center;
 }
 
