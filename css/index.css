@@ -331,6 +331,7 @@ main {
     width: 100%;
     height: calc(89rem / 37.5);
     padding-top: calc(15rem / 37.5);
+    /* background-color: #FFEB3B; */
     /* background-color: yellowgreen; */
 }
 
@@ -349,6 +350,7 @@ main {
     margin-top: calc(4rem / 37.5);
     line-height: calc(13rem / 37.5);
     text-align: center;
+    /* background-color: pink; */
 }
 
 .xinxuan-03-01-03 {
@@ -359,6 +361,7 @@ main {
     text-align: center;
     line-height: calc(10rem / 37.5);
     color: #000;
+    /* background-color: cornsilk; */
 }
 
 
