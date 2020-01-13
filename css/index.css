@@ -311,7 +311,7 @@ main {
     height: calc(162rem / 37.5);
 }
 
-/* } */
+
 .xinxuan-03-01 {
     display: block;
     float: left;
@@ -320,12 +320,7 @@ main {
     background-color: #f0f0f0;
 }
 
-/* .xinxuan-03.xinxuan-03-01 :hover{
-    text-decoration: none;
-}
-.xinxuan-03.xinxuan-03-02 :hover{
-    text-decoration: none;
-} */
+
 .xinxuan-03-01-01 {
     position: relative;
     width: 100%;
@@ -680,7 +675,7 @@ main {
     width: 100%;
 }
 
-/* @media (max-width: 750px) { */
+
 .xixuan-02-03 {
     padding-left: calc(7rem / 37.5);
     height: auto;
@@ -695,9 +690,8 @@ main {
     text-decoration: none
 }
 
-/* } */
 
-/* @media (max-width: 750px) { */
+
 .xixun-02-04 {
     font-size: calc(10rem / 37.5);
     line-height: 0.36rem;
@@ -712,7 +706,6 @@ main {
     text-decoration: none
 }
 
-/* } */
 
 .xixun-02-05 {
     position: relative;
