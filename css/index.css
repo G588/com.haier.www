@@ -114,14 +114,12 @@ main {
 
 
 .box-01 {
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     overflow-y: hidden;
 }
 
 .nav-tabs {
     width: calc(412rem / 37.5);
-
-
 }
 
 
@@ -139,13 +137,11 @@ main {
     background-color: #fff;
     border: calc(1rem / 37.5) solid #ddd;
     border-bottom-color: #2196F3;
-
 }
 
 .content {
     width: 100%;
     padding: 0.2rem;
-
 }
 
 
@@ -277,6 +273,7 @@ main {
 }
 
 .xinxuan-02-01-02 {
+    overflow: hidden;
     padding-top: calc(20rem / 37.5);
     height: 116px;
     /* background-color: skyblue; */
@@ -341,7 +338,7 @@ main {
 
 .xinxuan-03-01-02 {
     width: 100%;
-    height:  calc(24rem / 37.5);
+    height: calc(24rem / 37.5);
     margin-top: calc(4rem / 37.5);
     line-height: calc(13rem / 37.5);
     text-align: center;
@@ -362,6 +359,7 @@ main {
 
 
 .xinxuan-03-02 {
+    overflow: hidden;
     display: block;
     float: left;
     width: 50%;
